@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Cámara de Comercio de Talca</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Wish shop project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="styles/menu_principal.css">
+	<link rel="stylesheet" type="text/css" href="styles/menu_principal_responsive.css">
+	<link rel="icon" href="images/logo_cct.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Minified JS library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Compiled and minified Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+			<div class="header_inner d-flex flex-row align-items-center justify-content-start">
+				<div class="logo"><a href="menu_principal.html"><img src="images/logo_cct.png" alt=""></a></div>
+				<nav class="main_nav">
+					<ul>
+						<li><a href="menu_principal.html">inicio</a></li>
+						<li><a href="#">Nosotros</a></li>
+						<li><a href="menu_panoramas.html">Panoramas</a></li>
+						<li><a href="socios.html">Socios</a></li>
+						<li><a href="#">contacto</a></li>
+					</ul>
+				</nav>
+				<div class="header_content ml-auto">
+					<!-- Avatar -->
+					<div class="avatar">
+
+						<a href="acceso_socio.html">
+							<button type="button" class="boton_ingreso">Acceso Socios</button>
+						</a>
+						<a href="registro_socio.html">
+							<button type="button" class="btn-danger boton_hazte_socio"> Hazte Socio </button>
+						</a>
+					</div>
+				</div>
+				<div class="burger_container d-flex flex-column align-items-center justify-content-around menu_mm">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+		</header>
+		<!-- Menu -->
+
+		<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+			<div class="menu_close_container">
+				<div class="menu_close">
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<div class="logo"><a href="menu_principal.html"><img src="images/logo_cct.png" alt=""></a></div>
+			<div class="search">
+				<form action="#">
+					<input type="search" class="search_input menu_mm" required="required">
+					<button type="submit" id="search_button_menu" class="search_button menu_mm"><img class="menu_mm"
+							src="images/magnifying-glass.svg" alt=""></button>
+				</form>
+			</div>
+			<nav class="menu_nav">
+				<ul class="menu_mm">
+					<li class="menu_mm"><a href="menu_principal.html">inicio</a></li>
+					<li class="menu_mm"><a href="#">Nosotros</a></li>
+					<li class="menu_mm"><a href="menu_panoramas.html">Panoramas</a></li>
+					<li class="menu_mm"><a href="socios.html">Socios</a></li>
+					<li class="menu_mm"><a href="#">Contactos</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+		<!-- Carousel -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/panoramica-plaza.png" alt="">
+					<div class="carousel-caption">
+						<h3>PLAZA DE ARMAS DE TALCA</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/teatro_talca.png" alt="">
+					<div class="carousel-caption">
+						<h3>TEATRO REGIONAL DE TALCA</h3>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="images/talca_desde_cerro.png" alt="">
+					<div class="carousel-caption">
+						<h3>VISTA DE TALCA DESDE EL CERRO</h3>
+					</div>
+				</div>
+			</div>
+
+			<!-- Controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<!-- Products -->
+
+		<div class="products">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+
+						<!-- Sidebar Left -->
+
+						<div class="sidebar_left clearfix">
+							<h1>Nosotros</h1>
+							<!-- Nosotros -->
+							<div class="nosotros ">
+								<div class="row row-cols-1 row-cols-md-2 g-4">
+									<div class="col">
+										<div class="card">
+											<div class="card-body text-white bg-danger">
+												<h4 class="card-title text-justify">Quiénes Somos</h4>
+												<p class="card-text text-white text-justify">Cámara de comercio
+													Servicios y Turismos de Talca es
+													una asociación gremial, sin fines de lucros fundada en 1927, que
+													agrupa a los empresarios y diferentes
+													gremios de los tres sectores económicos de la región del Maule,
+													trabajando
+													con las cuatro hélices de la economía, entes públicos, privados,
+													<a id="botonQS" onclick=vermas()>... Ver Más</a>
+												<div id="link-vermas" style="display: none;">
+													la
+													academia y la
+													sociedad civil
+													organizada.
+												</div>
+
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="card">
+											<div class="card-body text-white bg-danger">
+												<h4 class="card-title text-justify">Misión</h4>
+												<p class="card-text text-white text-justify">Guiar el desarrollo de
+													nuestros asociados mediante la gestión gremial, orientándolos hacia
+													la obtención de los recursos
+													necesarios para mejorar su emprendimiento de innovación y
+													responsabilidad social,
+													respetando los principios de la libre empresa, interactuando con
+													organismos públicos y privados,
+													<a id="botonMision" onclick=vermas()>... Ver Más</a>
+												<div id="link-vermas" style="display: none;">
+													regionales, nacionales e internacionales, otorgando servicios de
+													calidad, y
+													generando los recursos necesarios
+													para su cumplimiento en forma efectiva.
+													Representar los intereses de nuestros asociados para fortalecer y
+													consolidar los
+													encadenamientos productivos, mediante la promoción de iniciativas
+													orientadas al
+													desarrollo económico, social y armónico, agregando valor a través de
+													su
+													gestión.
+												</div>
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col">
+										<div class="card">
+											<div class="card-body text-white bg-danger">
+												<h4 class="card-title text-justify">Visión</h4>
+												<p class="card-text text-white text-justify">Ser un gremio
+													empresarial
+													líder en la
+													región del
+													Maule,
+													siendo parte activa en el
+													desarrollo de sus asociados.
+												<p>
+
+												</p>
+
+												<br><br><br><br><br>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<h1>Directorio</h1>
+
+							<div class="row row-cols-1 row-cols-md-3 g-4 text-lg-center directorio ">
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Fernando Jiménez Espinoza</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_mujer.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Margarita Andia Cariqueo</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Edgardo Honorato Morales</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_mujer.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">María Verónica Villagrán
+												Lanctot</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Jorge Vidal N</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Claudio Reyes G</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Nixón Bardales Ruiz</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Miguel Hernández Rojas</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Marcelo Castillo Sateler</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-2">
+									<div class="card">
+										<img src="images/directorio_hombre.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Fabián Andrés González
+												Morales</h5>
+											<p class="card-text">This is a longer card with supporting text below as a
+												natural lead-in to additional content. This content is a little bit
+												longer.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+							<h1>Panoramas</h1>
+
+							<div class="row products_container">
+								<div class="col">
+
+									<!-- Products -->
+
+
+
+
+
+									<div class="product_grid">
+
+										<!-- Product -->
+										<div class="product">
+											<div class="product_image  border border-danger"><img
+													src="images/viejas-cochinas.jpg" alt="">
+											</div>
+											<div class="product_content clearfix">
+												<div class="product_info">
+													<div class="product_name "><a href="panoramas.html">Restaurante
+															Viejas Cochinas</a>
+														<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<!-- Product -->
+										<div class="product">
+											<div class="product_image border border-danger"><img
+													src="images/plaza-de-armas-de-talca.jpg" alt="">
+											</div>
+
+											<div class="product_content clearfix">
+												<div class="product_info">
+													<div class="product_name"><a href="panoramas.html">Plaza de
+															Armas</a></div>
+													<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Product -->
+										<div class="product">
+											<div class="product_image border border-danger"><img
+													src="images/mall-plaza-maule.jpg" alt="">
+											</div>
+
+											<div class="product_content clearfix">
+												<div class="product_info">
+													<div class="product_name"><a href="panoramas.html">Mall Plaza
+															Maule</a></div>
+													<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+												</div>
+											</div>
+										</div>
+										<!-- Product -->
+										<div class="product">
+											<div class="product_image border border-danger"><img
+													src="images/viejas-cochinas.jpg" alt="">
+											</div>
+
+											<div class="product_content clearfix">
+												<div class="product_info">
+													<div class="product_name"><a href="panoramas.html">Restaurante
+															Viejas
+															Cochinas</a></div>
+													<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Product -->
+										<div class="product">
+											<div class="product_image border border-danger"><img
+													src="images/plaza-de-armas-de-talca.jpg" alt="">
+											</div>
+
+											<div class="product_content clearfix">
+												<div class="product_info">
+													<div class="product_name"><a href="panoramas.html">Plaza de
+															Armas</a></div>
+													<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Product -->
+										<div class="product">
+											<div class="product_image border border-danger"><img
+													src="images/mall-plaza-maule.jpg" alt="">
+											</div>
+
+											<div class="product_content clearfix">
+												<div class="product_info">
+													<div class="product_name"><a href="panoramas.html">Mall Plaza
+															Maule</a></div>
+													<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+
+							<!-- Leave a Review -->
+
+							<div class="review_form_container">
+								<h1>Contáctanos</h1>
+								<div class="review_form_content">
+									<form action="#" id="review_form" class="review_form">
+										<div
+											class="d-flex flex-md-row flex-column align-items-start justify-content-between">
+											<input type="text" class="review_form_input" placeholder="Nombre"
+												required="required">
+											<input type="email" class="review_form_input" placeholder="E-mail"
+												required="required">
+											<input type="text" class="review_form_input" placeholder="Asunto"
+												required="required">
+										</div>
+										<textarea class="review_form_text" name="review_form_text"
+											placeholder="Mensaje"></textarea>
+										<button type="submit" class="btn-danger boton-enviar">Enviar</button>
+									</form>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<div class="footer_logo"><a href="#">Cámara de Comercio de Talca</a></div>
+						<nav class="footer_nav">
+							<ul>
+								<li><a href="menu_principal.html">inicio</a></li>
+								<li><a href="categories.html">Nosotros</a></li>
+								<li><a href="menu_panoramas.html">Panoramas</a></li>
+								<li><a href="socios.html">Socios</a></li>
+								<li><a href="contact.html">Contacto</a></li>
+							</ul>
+						</nav>
+						<div class="footer_social">
+							<ul>
+								<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								</li>
+							</ul>
+						</div>
+						<div class="copyright">
+							Copyright &copy;
+							<script>document.write(new Date().getFullYear());</script> Consultoría 1 -
+							Universidad de Talca <i class="" aria-hidden="true"></i> by
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="styles/bootstrap4/popper.js"></script>
+		<script src="styles/bootstrap4/bootstrap.min.js"></script>
+		<script src="plugins/easing/easing.js"></script>
+		<script src="plugins/parallax-js-master/parallax.min.js"></script>
+		<script src="plugins/Isotope/isotope.pkgd.min.js"></script>
+		<script src="plugins/malihu-custom-scrollbar/jquery.mCustomScrollbar.js"></script>
+		<script src="plugins/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+		<script src="js/categories_custom.js"></script>
+</body>
+
+</html>
